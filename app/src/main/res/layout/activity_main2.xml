@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Main2Activity">
+
+    <Button
+        android:id="@+id/button"
+        android:background="@drawable/button_rounded"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="instructions"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="105dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/button_rounded"
+            android:onClick="nextpage"
+            android:text="CONTINUE..."
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
